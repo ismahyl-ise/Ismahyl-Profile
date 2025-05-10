@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Infrastructure Design - Project Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="font-sans text-text bg-background">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-text-100/10">
+        <div class="container mx-auto px-5">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="text-2xl font-bold text-gradient">Network - Cyber Security</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#about" class="nav-link">About</a>
+                    <a href="index.html#certifications" class="nav-link">Certifications</a>
+                    <a href="index.html#course" class="nav-link">Course</a>
+                    <a href="index.html#projects" class="nav-link">Projects</a>
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </div>
+                <button id="menu-toggle" class="md:hidden text-text-600 hover:text-primary-600 transition-colors duration-300">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed top-20 left-0 w-full bg-white shadow-lg opacity-0 invisible transition-all duration-300 ease-in-out z-40 md:hidden">
+            <div class="flex flex-col">
+                <a href="index.html#about" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">About</a>
+                <a href="index.html#certifications" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">Certifications</a>
+                <a href="index.html#course" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">Course</a>
+                <a href="index.html#projects" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">Projects</a>
+                <a href="index.html#skills" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">Skills</a>
+                <a href="index.html#contact" class="px-5 py-4 border-b border-gray-100 text-text-600 hover:text-primary-500 hover:bg-primary-50 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Details Section -->
+    <section class="pt-32 pb-24">
+        <div class="container mx-auto px-5">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gradient">Network Infrastructure Design</h1>
+                    <div class="flex flex-wrap justify-center gap-2 mb-6">
+                        <span class="px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium transition-all duration-300 hover:bg-primary hover:text-white">Cisco</span>
+                        <span class="px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium transition-all duration-300 hover:bg-primary hover:text-white">Firewall</span>
+                        <span class="px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium transition-all duration-300 hover:bg-primary hover:text-white">VPN</span>
+                    </div>
+                </div>
+                
+                <div class="card overflow-hidden mb-12">
+                    <div class="mb-8">
+                        <img src="collage.png" alt="Network Infrastructure Design - Main" class="w-full h-auto rounded-xl shadow-lg">
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold mb-6 text-gradient">Project Overview</h2>
+                    <p class="text-light-text leading-relaxed mb-8">
+                        This project showcases a comprehensive enterprise network infrastructure design implemented using Cisco technologies. The design includes secure network segmentation, firewall implementation, and VPN connectivity for remote access.
+                    </p>
+                    
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold mb-6">Key Features</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-4 text-light-text transition-all duration-300 hover:text-primary hover:translate-x-2">
+                                <span class="text-primary font-bold">→</span>
+                                Secure network segmentation using VLANs
+                            </li>
+                            <li class="flex items-center gap-4 text-light-text transition-all duration-300 hover:text-primary hover:translate-x-2">
+                                <span class="text-primary font-bold">→</span>
+                                Enterprise-grade firewall implementation
+                            </li>
+                            <li class="flex items-center gap-4 text-light-text transition-all duration-300 hover:text-primary hover:translate-x-2">
+                                <span class="text-primary font-bold">→</span>
+                                Remote access VPN configuration
+                            </li>
+                            <li class="flex items-center gap-4 text-light-text transition-all duration-300 hover:text-primary hover:translate-x-2">
+                                <span class="text-primary font-bold">→</span>
+                                Redundant network paths
+                            </li>
+                            <li class="flex items-center gap-4 text-light-text transition-all duration-300 hover:text-primary hover:translate-x-2">
+                                <span class="text-primary font-bold">→</span>
+                                Quality of Service (QoS) implementation
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <a href="College.pkt" download class="w-full sm:w-auto py-4 px-6 rounded-full bg-gradient-to-r from-primary-600 to-secondary-500 text-white text-center font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-lg hover:opacity-90">
+                            <i class="fas fa-download"></i>
+                            Download Project File
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <a href="index.html#projects" class="w-full sm:w-auto py-4 px-6 rounded-full bg-primary-600 text-white text-center font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-lg hover:opacity-90 inline-flex">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text text-white py-12">
+        <div class="container mx-auto px-5 text-center">
+            <p>&copy; 2025 ISMAHYL MUHAMMADAMIN.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            // Toggle button with icon change
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const isOpen = !mobileMenu.classList.contains('invisible');
+                
+                // Toggle menu visibility
+                if (isOpen) {
+                    // Close menu
+                    mobileMenu.classList.add('invisible', 'opacity-0');
+                    // Change icon to bars
+                    menuToggle.innerHTML = '<i class="fas fa-bars text-2xl"></i>';
+                } else {
+                    // Open menu
+                    mobileMenu.classList.remove('invisible', 'opacity-0');
+                    // Change icon to X
+                    menuToggle.innerHTML = '<i class="fas fa-times text-2xl"></i>';
+                }
+            });
+            
+            // Close menu when clicking on links
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('invisible', 'opacity-0');
+                    menuToggle.innerHTML = '<i class="fas fa-bars text-2xl"></i>';
+                });
+            });
+            
+            // Add click event to the document to close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                // If menu is open and click is outside menu and toggle button
+                if (!mobileMenu.classList.contains('invisible') && 
+                    !mobileMenu.contains(event.target) && 
+                    !menuToggle.contains(event.target)) {
+                    mobileMenu.classList.add('invisible', 'opacity-0');
+                    menuToggle.innerHTML = '<i class="fas fa-bars text-2xl"></i>';
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
